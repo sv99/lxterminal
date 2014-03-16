@@ -1,33 +1,37 @@
 Source: lxterminal
 Section: x11
-Priority: extra
-Maintainer: Debian LXDE Packaging Team <pkg-lxde-maintainers@lists.alioth.debian.org>
-Uploaders: Andrew Lee (李健秋) <ajqlee@debian.org>, Yao Wei (魏銘廷) <mwei@lxde.org>
-Build-Depends: debhelper (>= 6), 
-# needed by autogen.sh
-               autotools-dev,
-               intltool,
-               libtool,
-# real build-depends
-               libvte-dev (>= 0.17.1),
-               libglib2.0-dev (>= 2.6.0),
-               libgtk2.0-dev (>= 2.12.0),
-               docbook-xsl,
-               xsltproc,
-               docbook-xml,
-Standards-Version: 3.9.2
-Homepage: http://lxde.org
-Vcs-Git: git://git.debian.org/git/collab-maint/lxterminal.git
-Vcs-Browser: http://git.debian.org/?p=collab-maint/lxterminal.git;a=summary
+Priority: optional
+Maintainer: Debian LXDE Maintainers <lxde-debian@lists.lxde.org>
+Uploaders:
+ Andrew Lee (李健秋) <ajqlee@debian.org>,
+ Yao Wei (魏銘廷) <mwei@lxde.org>, Daniel Baumann <daniel@debian.org>
+Build-Depends:
+ debhelper (>= 9), autotools-dev, docbook-xsl, intltool, libglib2.0-dev,
+ libgtk2.0-dev, libvte-dev
+Standards-Version: 3.9.3
+Homepage: http://www.lxde.org/
+Vcs-Browser: http://git.lxde.org/gitweb/?p=debian/lxterminal.git
+Vcs-Git: git://git.lxde.org/git/debian/lxterminal.git
 
 Package: lxterminal
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Provides: x-terminal-emulator
-Description: desktop independent vte-based terminal emulator
- LXTerminal is a VTE-based terminal emulator from LXDE project which
- supports multiple tabs. It is completely desktop-independent and does
- not have any unnecessary dependencies.
+Description: LXDE terminal emulator
+ LXTerminal is a VTE-based terminal emulator for the Lightweight X11 Desktop
+ Environment (LXDE).
  .
- In order to reduce memory usage and increase the performance,
- all instances of the terminal are sharing a single process.
+ It supports multiple tabs and has only minimal dependencies thus being
+ completely desktop-independent. In order to reduce memory usage and increase
+ the performance, all instances of the terminal are sharing a single process.
+
+Package: lxterminal-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Depends: ${misc:Depends}, lxterminal (= ${binary:Version})
+Description: LXDE terminal emulator (debug)
+ LXTerminal is a VTE-based terminal emulator for the Lightweight X11 Desktop
+ Environment (LXDE).
+ .
+ This package contains the debugging symbols.

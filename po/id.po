@@ -7,16 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lxterminal\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:00+0100\n"
-"PO-Revision-Date: 2012-10-01 02:22+0200\n"
-"Last-Translator: Andika <andika@gmail.com>\n"
+"POT-Creation-Date: 2014-03-16 21:47+0400\n"
+"PO-Revision-Date: 2009-05-23 03:59+0200\n"
+"Last-Translator: Rahman Yusri Aftian <aftian@yahoo.com>\n"
 "Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: ../src/encoding.c:124
 msgid "West European"
@@ -168,117 +167,142 @@ msgstr "Vietnam"
 msgid "Thai"
 msgstr "Thai"
 
-#: ../src/lxterminal.c:137
+#. 0
+#: ../src/lxterminal.c:138
 msgid "_File"
 msgstr "_Berkas"
 
-#: ../src/lxterminal.c:138
+#. 1
+#: ../src/lxterminal.c:139
 msgid "_Edit"
 msgstr "_Sunting"
 
-#: ../src/lxterminal.c:139
+#. 2
+#: ../src/lxterminal.c:140
 msgid "_Tabs"
 msgstr "T_ab"
 
-#: ../src/lxterminal.c:140
+#. 3
+#: ../src/lxterminal.c:141
 msgid "_Help"
 msgstr "Ba_ntuan"
 
-#: ../src/lxterminal.c:147 ../src/lxterminal.c:170
+#. 4
+#: ../src/lxterminal.c:142 ../src/lxterminal.c:165
 msgid "New _Window"
 msgstr "_Jendela Baru"
 
-#: ../src/lxterminal.c:148 ../src/lxterminal.c:171
+#. 5
+#: ../src/lxterminal.c:143 ../src/lxterminal.c:166
 msgid "New _Tab"
 msgstr "_Tab Baru"
 
-#: ../src/lxterminal.c:150 ../src/lxterminal.c:185
+#. 6
+#. 7
+#: ../src/lxterminal.c:145 ../src/lxterminal.c:180
 msgid "_Close Tab"
 msgstr "_Tutup Tab"
 
-#: ../src/lxterminal.c:151
+#. 8
+#: ../src/lxterminal.c:146
 msgid "_Quit"
 msgstr "_Keluar"
 
-#: ../src/lxterminal.c:152 ../src/lxterminal.c:174
+#. 9
+#: ../src/lxterminal.c:147 ../src/lxterminal.c:169
 msgid "Cop_y"
 msgstr "S_alin"
 
-#: ../src/lxterminal.c:153 ../src/lxterminal.c:175
+#. 10
+#: ../src/lxterminal.c:148 ../src/lxterminal.c:170
 msgid "_Paste"
 msgstr "_Tempel"
 
-#: ../src/lxterminal.c:154
+#. 11
+#: ../src/lxterminal.c:149
+#, fuzzy
 msgid "Clear scr_ollback"
-msgstr "_Bersihkan gulung balik"
+msgstr "Sembunyikan bilah penggulung"
 
-#: ../src/lxterminal.c:156 ../src/lxterminal.c:178
+#. 12
+#. 13
+#: ../src/lxterminal.c:151 ../src/lxterminal.c:173
 msgid "Preference_s"
 msgstr "_Pengaturan"
 
-#: ../src/lxterminal.c:157 ../src/lxterminal.c:180
+#. 14
+#: ../src/lxterminal.c:152 ../src/lxterminal.c:175
 msgid "Na_me Tab"
 msgstr "Tab Na_ma"
 
-#: ../src/lxterminal.c:158 ../src/lxterminal.c:181
+#. 15
+#: ../src/lxterminal.c:153 ../src/lxterminal.c:176
 msgid "Pre_vious Tab"
 msgstr "_Tab Sebelumnya"
 
-#: ../src/lxterminal.c:159 ../src/lxterminal.c:182
+#. 16
+#: ../src/lxterminal.c:154 ../src/lxterminal.c:177
 msgid "Ne_xt Tab"
 msgstr "Ta_b Setelahnya"
 
-#: ../src/lxterminal.c:160 ../src/lxterminal.c:183
+#. 17
+#: ../src/lxterminal.c:155 ../src/lxterminal.c:178
 msgid "Move Tab _Left"
 msgstr "Pindahkan Tab ke Ki_ri"
 
-#: ../src/lxterminal.c:161 ../src/lxterminal.c:184
+#. 18
+#: ../src/lxterminal.c:156 ../src/lxterminal.c:179
 msgid "Move Tab _Right"
 msgstr "Pindahkan Tab ke Ka_nan"
 
-#: ../src/lxterminal.c:162
+#. 19
+#: ../src/lxterminal.c:157
 msgid "_About"
 msgstr "_Tentang"
 
-#: ../src/lxterminal.c:173
+#: ../src/lxterminal.c:168
 msgid "Copy _URL"
-msgstr "Salin _URL"
+msgstr ""
 
-#: ../src/lxterminal.c:176
+#: ../src/lxterminal.c:171
+#, fuzzy
 msgid "Cl_ear scrollback"
-msgstr "B_ersihkan gulung balik"
+msgstr "Sembunyikan bilah penggulung"
 
 #. Propagate the working directory of the current tab to the new tab.
 #. * If the working directory was determined above, use it; otherwise default to the working directory of the process.
 #. * Create the new terminal.
-#: ../src/lxterminal.c:435 ../src/lxterminal.c:723 ../src/lxterminal.c:798
-#: ../src/lxterminal.c:1470 ../src/preferences.c:230
-#: ../data/lxterminal.desktop.in.h:1
+#: ../src/lxterminal.c:430 ../src/lxterminal.c:734 ../src/lxterminal.c:809
+#: ../src/lxterminal.c:1477 ../src/lxterminal.c:1523 ../src/preferences.c:305
+#: ../src/preferences.c:323 ../data/lxterminal.desktop.in.h:1
 msgid "LXTerminal"
 msgstr "LXTerminal"
 
-#: ../src/lxterminal.c:563
+#: ../src/lxterminal.c:567 ../data/lxterminal-preferences.glade.h:28
 msgid "Name Tab"
 msgstr "Tab Nama"
 
 #. TRANSLATORS: Replace this string with your names, one name per line.
-#: ../src/lxterminal.c:717
+#: ../src/lxterminal.c:728
 msgid "translator-credits"
-msgstr ""
-"Andhika Padmawan <andhika.padmawan@gmail.com>, 2009.\n"
-"Andika Triwidada <andika@gmail.com>, 2012."
+msgstr "Andhika Padmawan <andhika.padmawan@gmail.com>, 2009."
 
-#: ../src/lxterminal.c:725
+#: ../src/lxterminal.c:736
 msgid "Copyright (C) 2008-2011"
 msgstr "Hak Cipta (C) 2008-2011"
 
-#: ../src/lxterminal.c:726
+#: ../src/lxterminal.c:737
 msgid "Terminal emulator for LXDE project"
 msgstr "Emulator terminal untuk proyek LXDE"
 
+#: ../src/preferences.c:303
+msgid "Accelerator changed need restart!"
+msgstr ""
+
 #: ../data/lxterminal-preferences.glade.h:1
+#, fuzzy
 msgid "LXTerminal Preferences"
-msgstr "Pengaturan LXTerminal"
+msgstr "Pengaturan"
 
 #: ../data/lxterminal-preferences.glade.h:2
 msgid "Terminal font"
@@ -353,26 +377,80 @@ msgid "Disable menu shortcut key (F10 by default)"
 msgstr "Nonaktifkan kunci pintas menu (bawaan adalah F10)"
 
 #: ../data/lxterminal-preferences.glade.h:20
+#, fuzzy
 msgid "Disable using Alt-n for tabs and menu"
-msgstr "Nonaktifkan penggunaan Alt-n untuk tab dan menu"
+msgstr "Nonaktifkan penggunaan Alt-n untuk bertukar tab"
 
 #: ../data/lxterminal-preferences.glade.h:21
 msgid "Advanced"
 msgstr "Tingkat lanjut"
 
 #: ../data/lxterminal-preferences.glade.h:22
+#, fuzzy
+msgid "New Window"
+msgstr "_Jendela Baru"
+
+#: ../data/lxterminal-preferences.glade.h:23
+#, fuzzy
+msgid "New Tab"
+msgstr "_Tab Baru"
+
+#: ../data/lxterminal-preferences.glade.h:24
+#, fuzzy
+msgid "Close Tab"
+msgstr "_Tutup Tab"
+
+#: ../data/lxterminal-preferences.glade.h:25
+#, fuzzy
+msgid "Quit"
+msgstr "_Keluar"
+
+#: ../data/lxterminal-preferences.glade.h:26
+msgid "Copy"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:27
+#, fuzzy
+msgid "Paste"
+msgstr "_Tempel"
+
+#: ../data/lxterminal-preferences.glade.h:29
+#, fuzzy
+msgid "Previous Tab"
+msgstr "_Tab Sebelumnya"
+
+#: ../data/lxterminal-preferences.glade.h:30
+#, fuzzy
+msgid "Next Tab"
+msgstr "Ta_b Setelahnya"
+
+#: ../data/lxterminal-preferences.glade.h:31
+#, fuzzy
+msgid "Move Tab Left"
+msgstr "Pindahkan Tab ke Ki_ri"
+
+#: ../data/lxterminal-preferences.glade.h:32
+#, fuzzy
+msgid "Move Tab Right"
+msgstr "Pindahkan Tab ke Ka_nan"
+
+#: ../data/lxterminal-preferences.glade.h:33
+msgid "Shortcuts"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:34
 msgid "Top"
 msgstr "Atas"
 
-#: ../data/lxterminal-preferences.glade.h:23
+#: ../data/lxterminal-preferences.glade.h:35
 msgid "Bottom"
 msgstr "Bawah"
 
-#: ../data/lxterminal-preferences.glade.h:24
+#: ../data/lxterminal-preferences.glade.h:36
 msgid "Left"
 msgstr "Kiri"
 
-#: ../data/lxterminal-preferences.glade.h:25
+#: ../data/lxterminal-preferences.glade.h:37
 msgid "Right"
 msgstr "Kanan"
 

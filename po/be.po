@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:00+0100\n"
-"PO-Revision-Date: 2012-09-26 00:14+0200\n"
-"Last-Translator: Мікалай <crom-a@tut.by>\n"
+"POT-Creation-Date: 2014-03-16 21:47+0400\n"
+"PO-Revision-Date: 2010-08-25 15:24+0200\n"
+"Last-Translator: Анік <xabzan9tka@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
@@ -21,19 +21,19 @@ msgstr ""
 
 #: ../src/encoding.c:124
 msgid "West European"
-msgstr "Заходнееўрапейская"
+msgstr "Заходнееўрапеская"
 
 #: ../src/encoding.c:125
 msgid "East European"
-msgstr "Усходнееўрапейская"
+msgstr "Усходнееўрапеская"
 
 #: ../src/encoding.c:126
 msgid "East Asian"
-msgstr "Заходнеазіяцкая"
+msgstr "Заходнеазіятская"
 
 #: ../src/encoding.c:127
 msgid "SE & SW Asian"
-msgstr "Паўднёваўсходняя і паўднёвазаходняя азіяцкія"
+msgstr "Паўднёваўсходняя і паўднёвазаходняя азіятскія"
 
 #: ../src/encoding.c:128
 msgid "Middle Eastern"
@@ -42,7 +42,7 @@ msgstr "Бліжнеўсходняя"
 #: ../src/encoding.c:129 ../src/encoding.c:151 ../src/encoding.c:152
 #: ../src/encoding.c:153 ../src/encoding.c:154 ../src/encoding.c:155
 msgid "Unicode"
-msgstr "Унікод"
+msgstr "Юнікод"
 
 #. { NULL, TERMINAL_ENCODING_CURRENT_LOCALE, NULL, N_("Current Locale") },
 #: ../src/encoding.c:135 ../src/encoding.c:148 ../src/encoding.c:172
@@ -53,7 +53,7 @@ msgstr "Заходняя"
 #: ../src/encoding.c:136 ../src/encoding.c:173 ../src/encoding.c:187
 #: ../src/encoding.c:208
 msgid "Central European"
-msgstr "Цэнтральнаеўрапейская"
+msgstr "Цэнральнаеўрапейская"
 
 #: ../src/encoding.c:137
 msgid "South European"
@@ -97,7 +97,7 @@ msgstr "Скандынаўская"
 
 #: ../src/encoding.c:147
 msgid "Celtic"
-msgstr "Кельцкая"
+msgstr "Кельтская"
 
 #: ../src/encoding.c:149 ../src/encoding.c:198
 msgid "Romanian"
@@ -113,7 +113,7 @@ msgstr "Кітайская традыцыйная"
 
 #: ../src/encoding.c:160
 msgid "Cyrillic/Russian"
-msgstr "Кірыліца/Расія"
+msgstr "Кірыліца/Расея"
 
 #: ../src/encoding.c:162 ../src/encoding.c:179 ../src/encoding.c:202
 msgid "Japanese"
@@ -139,11 +139,11 @@ msgstr "Кірыліца/Украіна"
 
 #: ../src/encoding.c:188
 msgid "Croatian"
-msgstr "Харвацкая"
+msgstr "Харватская"
 
 #: ../src/encoding.c:190
 msgid "Hindi"
-msgstr "Хіндзі"
+msgstr "Хінды"
 
 #: ../src/encoding.c:191
 msgid "Farsi"
@@ -169,117 +169,142 @@ msgstr "В'етнамская"
 msgid "Thai"
 msgstr "Тайская"
 
-#: ../src/lxterminal.c:137
-msgid "_File"
-msgstr "Ф_айл"
-
+#. 0
 #: ../src/lxterminal.c:138
-msgid "_Edit"
-msgstr "_Праца"
+msgid "_File"
+msgstr "_Файл"
 
+#. 1
 #: ../src/lxterminal.c:139
-msgid "_Tabs"
-msgstr "_Карткі"
+msgid "_Edit"
+msgstr "_Праўка"
 
+#. 2
 #: ../src/lxterminal.c:140
-msgid "_Help"
-msgstr "_Даведка"
+msgid "_Tabs"
+msgstr "_Укладкі"
 
-#: ../src/lxterminal.c:147 ../src/lxterminal.c:170
+#. 3
+#: ../src/lxterminal.c:141
+msgid "_Help"
+msgstr "_Дапамога"
+
+#. 4
+#: ../src/lxterminal.c:142 ../src/lxterminal.c:165
 msgid "New _Window"
 msgstr "Новае _вакно"
 
-#: ../src/lxterminal.c:148 ../src/lxterminal.c:171
+#. 5
+#: ../src/lxterminal.c:143 ../src/lxterminal.c:166
 msgid "New _Tab"
-msgstr "Новая картка"
+msgstr "Новая ў_кладка"
 
-#: ../src/lxterminal.c:150 ../src/lxterminal.c:185
+#. 6
+#. 7
+#: ../src/lxterminal.c:145 ../src/lxterminal.c:180
 msgid "_Close Tab"
-msgstr "_Закрыць картку"
+msgstr "_Закрыць укладку"
 
-#: ../src/lxterminal.c:151
+#. 8
+#: ../src/lxterminal.c:146
 msgid "_Quit"
 msgstr "_Выйсці"
 
-#: ../src/lxterminal.c:152 ../src/lxterminal.c:174
+#. 9
+#: ../src/lxterminal.c:147 ../src/lxterminal.c:169
 msgid "Cop_y"
-msgstr "_Капіраваць"
+msgstr "_Капіяваць"
 
-#: ../src/lxterminal.c:153 ../src/lxterminal.c:175
+#. 10
+#: ../src/lxterminal.c:148 ../src/lxterminal.c:170
 msgid "_Paste"
 msgstr "_Уставіць"
 
-#: ../src/lxterminal.c:154
+#. 11
+#: ../src/lxterminal.c:149
+#, fuzzy
 msgid "Clear scr_ollback"
-msgstr "Ачысціць гісторыю выва_ду"
+msgstr "Схаваць паласу пракруткі"
 
-#: ../src/lxterminal.c:156 ../src/lxterminal.c:178
+#. 12
+#. 13
+#: ../src/lxterminal.c:151 ../src/lxterminal.c:173
 msgid "Preference_s"
-msgstr "Настаўленн_і"
+msgstr "Налад_ы"
 
-#: ../src/lxterminal.c:157 ../src/lxterminal.c:180
+#. 14
+#: ../src/lxterminal.c:152 ../src/lxterminal.c:175
 msgid "Na_me Tab"
-msgstr "Назвац_ь картку"
+msgstr "На_зваць укладку"
 
-#: ../src/lxterminal.c:158 ../src/lxterminal.c:181
+#. 15
+#: ../src/lxterminal.c:153 ../src/lxterminal.c:176
 msgid "Pre_vious Tab"
-msgstr "П_апярэдняя картка"
+msgstr "П_апярэдняя ўкладка"
 
-#: ../src/lxterminal.c:159 ../src/lxterminal.c:182
+#. 16
+#: ../src/lxterminal.c:154 ../src/lxterminal.c:177
 msgid "Ne_xt Tab"
-msgstr "На_ступная картка"
+msgstr "На_ступная ўкладка"
 
-#: ../src/lxterminal.c:160 ../src/lxterminal.c:183
+#. 17
+#: ../src/lxterminal.c:155 ../src/lxterminal.c:178
 msgid "Move Tab _Left"
-msgstr "Перамясціць картку ў_лева"
+msgstr "Перамесціць укладку ў_лева"
 
-#: ../src/lxterminal.c:161 ../src/lxterminal.c:184
+#. 18
+#: ../src/lxterminal.c:156 ../src/lxterminal.c:179
 msgid "Move Tab _Right"
-msgstr "Перамясціць картку ў_права"
+msgstr "Перамесціць укладку ў_права"
 
-#: ../src/lxterminal.c:162
+#. 19
+#: ../src/lxterminal.c:157
 msgid "_About"
 msgstr "_Пра праграму"
 
-#: ../src/lxterminal.c:173
+#: ../src/lxterminal.c:168
 msgid "Copy _URL"
-msgstr "Капіраваць _URL"
+msgstr ""
 
-#: ../src/lxterminal.c:176
+#: ../src/lxterminal.c:171
+#, fuzzy
 msgid "Cl_ear scrollback"
-msgstr "С_кінуць гісторыю вываду"
+msgstr "Схаваць паласу пракруткі"
 
 #. Propagate the working directory of the current tab to the new tab.
 #. * If the working directory was determined above, use it; otherwise default to the working directory of the process.
 #. * Create the new terminal.
-#: ../src/lxterminal.c:435 ../src/lxterminal.c:723 ../src/lxterminal.c:798
-#: ../src/lxterminal.c:1470 ../src/preferences.c:230
-#: ../data/lxterminal.desktop.in.h:1
+#: ../src/lxterminal.c:430 ../src/lxterminal.c:734 ../src/lxterminal.c:809
+#: ../src/lxterminal.c:1477 ../src/lxterminal.c:1523 ../src/preferences.c:305
+#: ../src/preferences.c:323 ../data/lxterminal.desktop.in.h:1
 msgid "LXTerminal"
 msgstr "LXTerminal"
 
-#: ../src/lxterminal.c:563
+#: ../src/lxterminal.c:567 ../data/lxterminal-preferences.glade.h:28
 msgid "Name Tab"
-msgstr "Назваць картку"
+msgstr "Назваць укладку"
 
 #. TRANSLATORS: Replace this string with your names, one name per line.
-#: ../src/lxterminal.c:717
+#: ../src/lxterminal.c:728
 msgid "translator-credits"
-msgstr ""
-"Анік Кіна <son_of_the_photographer@tut.by>, 2010\n"
-"Мікалай Удодаў <crom-a@tut.by>, 2011, 2012."
+msgstr "Анік Кіна <son_of_the_photographer@tut.by>"
 
-#: ../src/lxterminal.c:725
+#: ../src/lxterminal.c:736
 msgid "Copyright (C) 2008-2011"
-msgstr "Аўтарскае права (C) 2008-2011"
+msgstr "Copyright (C) 2008-2011"
 
-#: ../src/lxterminal.c:726
+#: ../src/lxterminal.c:737
 msgid "Terminal emulator for LXDE project"
-msgstr "Эмулятар тэрмінала для праекта LXDE"
+msgstr "Эмулятар тэрміналу для праекта LXDE"
+
+#: ../src/preferences.c:303
+msgid "Accelerator changed need restart!"
+msgstr ""
 
 #: ../data/lxterminal-preferences.glade.h:1
+#, fuzzy
 msgid "LXTerminal Preferences"
-msgstr "Настаўленні LXTerminal-а"
+msgstr "Налад_ы"
 
 #: ../data/lxterminal-preferences.glade.h:2
 msgid "Terminal font"
@@ -287,7 +312,7 @@ msgstr "Шрыфт тэрмінала"
 
 #: ../data/lxterminal-preferences.glade.h:3
 msgid "Background"
-msgstr "Колер фону"
+msgstr "Колер фона"
 
 #: ../data/lxterminal-preferences.glade.h:4
 msgid "Foreground"
@@ -295,11 +320,11 @@ msgstr "Колер тэксту"
 
 #: ../data/lxterminal-preferences.glade.h:5
 msgid "Allow bold font"
-msgstr "Дазволіць цёмны шрыфт"
+msgstr "Дазволіць тлусты шрыўт"
 
 #: ../data/lxterminal-preferences.glade.h:6
 msgid "Cursor blink"
-msgstr "Мігаценне курсора"
+msgstr "Мігаценне курсору"
 
 #: ../data/lxterminal-preferences.glade.h:7
 msgid "Cursor style"
@@ -323,15 +348,15 @@ msgstr "Стыль"
 
 #: ../data/lxterminal-preferences.glade.h:12
 msgid "Tab panel position"
-msgstr "Размяшчэнне панэлі картак"
+msgstr "Размяшчэнне панэлі ўкладак"
 
 #: ../data/lxterminal-preferences.glade.h:13
 msgid "Scrollback lines"
-msgstr "Гісторыя, радкоў"
+msgstr "Радкі прагорткі"
 
 #: ../data/lxterminal-preferences.glade.h:14
 msgid "Hide scroll bar"
-msgstr "Схаваць стужку прагорткі"
+msgstr "Схаваць паласу пракруткі"
 
 #: ../data/lxterminal-preferences.glade.h:15
 msgid "Hide menu bar"
@@ -347,33 +372,87 @@ msgstr "Выгляд"
 
 #: ../data/lxterminal-preferences.glade.h:18
 msgid "Select-by-word characters"
-msgstr "Сімвалы, якія выдзяляюць словы"
+msgstr "сімвалы, якія выдзяляюцца па словах"
 
 #: ../data/lxterminal-preferences.glade.h:19
 msgid "Disable menu shortcut key (F10 by default)"
-msgstr "Адключыць хуткі выклік меню (звычайна F10)"
+msgstr "Адключыць хуткі выклік меню (F10 па-змаўчанні)"
 
 #: ../data/lxterminal-preferences.glade.h:20
+#, fuzzy
 msgid "Disable using Alt-n for tabs and menu"
-msgstr "Адключыць пераключэнне па Alt-n картак і меню"
+msgstr "Адключыць выкарыстанне Alt-n для пераключэння ўкладок"
 
 #: ../data/lxterminal-preferences.glade.h:21
 msgid "Advanced"
-msgstr "Дэталі"
+msgstr "Дадаткова"
 
 #: ../data/lxterminal-preferences.glade.h:22
+#, fuzzy
+msgid "New Window"
+msgstr "Новае _вакно"
+
+#: ../data/lxterminal-preferences.glade.h:23
+#, fuzzy
+msgid "New Tab"
+msgstr "Новая ў_кладка"
+
+#: ../data/lxterminal-preferences.glade.h:24
+#, fuzzy
+msgid "Close Tab"
+msgstr "_Закрыць укладку"
+
+#: ../data/lxterminal-preferences.glade.h:25
+#, fuzzy
+msgid "Quit"
+msgstr "_Выйсці"
+
+#: ../data/lxterminal-preferences.glade.h:26
+msgid "Copy"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:27
+#, fuzzy
+msgid "Paste"
+msgstr "_Уставіць"
+
+#: ../data/lxterminal-preferences.glade.h:29
+#, fuzzy
+msgid "Previous Tab"
+msgstr "П_апярэдняя ўкладка"
+
+#: ../data/lxterminal-preferences.glade.h:30
+#, fuzzy
+msgid "Next Tab"
+msgstr "На_ступная ўкладка"
+
+#: ../data/lxterminal-preferences.glade.h:31
+#, fuzzy
+msgid "Move Tab Left"
+msgstr "Перамесціць укладку ў_лева"
+
+#: ../data/lxterminal-preferences.glade.h:32
+#, fuzzy
+msgid "Move Tab Right"
+msgstr "Перамесціць укладку ў_права"
+
+#: ../data/lxterminal-preferences.glade.h:33
+msgid "Shortcuts"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:34
 msgid "Top"
 msgstr "Зверху"
 
-#: ../data/lxterminal-preferences.glade.h:23
+#: ../data/lxterminal-preferences.glade.h:35
 msgid "Bottom"
 msgstr "Знізу"
 
-#: ../data/lxterminal-preferences.glade.h:24
+#: ../data/lxterminal-preferences.glade.h:36
 msgid "Left"
 msgstr "Злева"
 
-#: ../data/lxterminal-preferences.glade.h:25
+#: ../data/lxterminal-preferences.glade.h:37
 msgid "Right"
 msgstr "Справа"
 
@@ -383,7 +462,7 @@ msgstr "Тэрмінал"
 
 #: ../data/lxterminal.desktop.in.h:3
 msgid "Use the command line"
-msgstr "Эмулятар тэрмінала"
+msgstr "Выкарыстоўваць загадны радок"
 
 #~ msgid "gtk-cancel"
 #~ msgstr "gtk-cancel"

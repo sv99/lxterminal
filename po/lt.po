@@ -2,24 +2,22 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# Algimantas <margevicius.algimantas@mail.ru>, 2012.
-# Algimantas Margevičius <margevicius.algimantas@gmail.com>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-13 23:00+0100\n"
-"PO-Revision-Date: 2012-09-24 09:10+0300\n"
-"Last-Translator: Algimantas Margevičius <margevicius.algimantas@gmail.com>\n"
-"Language-Team: Lietuvių <>\n"
+"POT-Creation-Date: 2014-03-16 21:47+0400\n"
+"PO-Revision-Date: 2011-01-04 23:21+0200\n"
+"Last-Translator: Julius <zadintuvas@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Gtranslator 2.91.5\n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.0.5\n"
 "X-Language: lt_LT\n"
 
 #: ../src/encoding.c:124
@@ -172,118 +170,142 @@ msgstr "Vietnamiečių"
 msgid "Thai"
 msgstr "Tajų"
 
-#: ../src/lxterminal.c:137
+#. 0
+#: ../src/lxterminal.c:138
 msgid "_File"
 msgstr "_Failas"
 
-#: ../src/lxterminal.c:138
+#. 1
+#: ../src/lxterminal.c:139
 msgid "_Edit"
 msgstr "_Keisti"
 
-#: ../src/lxterminal.c:139
+#. 2
+#: ../src/lxterminal.c:140
 msgid "_Tabs"
 msgstr "K_ortelės"
 
-#: ../src/lxterminal.c:140
+#. 3
+#: ../src/lxterminal.c:141
 msgid "_Help"
 msgstr "_Pagalba"
 
-#: ../src/lxterminal.c:147 ../src/lxterminal.c:170
+#. 4
+#: ../src/lxterminal.c:142 ../src/lxterminal.c:165
 msgid "New _Window"
 msgstr "Naujas _langas"
 
-#: ../src/lxterminal.c:148 ../src/lxterminal.c:171
+#. 5
+#: ../src/lxterminal.c:143 ../src/lxterminal.c:166
 msgid "New _Tab"
 msgstr "_Nauja kortelė"
 
-#: ../src/lxterminal.c:150 ../src/lxterminal.c:185
+#. 6
+#. 7
+#: ../src/lxterminal.c:145 ../src/lxterminal.c:180
 msgid "_Close Tab"
 msgstr "_Uždaryti kortelę"
 
-#: ../src/lxterminal.c:151
+#. 8
+#: ../src/lxterminal.c:146
 msgid "_Quit"
 msgstr "_Išeiti"
 
-#: ../src/lxterminal.c:152 ../src/lxterminal.c:174
+#. 9
+#: ../src/lxterminal.c:147 ../src/lxterminal.c:169
 msgid "Cop_y"
 msgstr "_Kopijuoti"
 
-#: ../src/lxterminal.c:153 ../src/lxterminal.c:175
+#. 10
+#: ../src/lxterminal.c:148 ../src/lxterminal.c:170
 msgid "_Paste"
-msgstr "_Įdėti"
+msgstr "_Padėti"
 
-# nesupratau ką ji daro, logiškai mąstant turėtų išvalyt matomą terminalo langą arba įvestų komandų istoriją, bet praktiškai tai paspaudus tą mygtuką nieko nevyksta. reik išbandyt su vėlesne versija.
-#: ../src/lxterminal.c:154
+#. 11
+#: ../src/lxterminal.c:149
+#, fuzzy
 msgid "Clear scr_ollback"
-msgstr "Išvalyti _slinkimo istoriją"
+msgstr "Paslėpti slinkimo juostą"
 
-#: ../src/lxterminal.c:156 ../src/lxterminal.c:178
+#. 12
+#. 13
+#: ../src/lxterminal.c:151 ../src/lxterminal.c:173
 msgid "Preference_s"
 msgstr "Nu_statymai"
 
-#: ../src/lxterminal.c:157 ../src/lxterminal.c:180
+#. 14
+#: ../src/lxterminal.c:152 ../src/lxterminal.c:175
 msgid "Na_me Tab"
 msgstr "Pava_dinti kortelę"
 
-#: ../src/lxterminal.c:158 ../src/lxterminal.c:181
+#. 15
+#: ../src/lxterminal.c:153 ../src/lxterminal.c:176
 msgid "Pre_vious Tab"
 msgstr "_Ankstesnė kortelė"
 
-#: ../src/lxterminal.c:159 ../src/lxterminal.c:182
+#. 16
+#: ../src/lxterminal.c:154 ../src/lxterminal.c:177
 msgid "Ne_xt Tab"
 msgstr "_Kita kortelė"
 
-#: ../src/lxterminal.c:160 ../src/lxterminal.c:183
+#. 17
+#: ../src/lxterminal.c:155 ../src/lxterminal.c:178
 msgid "Move Tab _Left"
 msgstr "Perkelti kortelę _kairėn"
 
-#: ../src/lxterminal.c:161 ../src/lxterminal.c:184
+#. 18
+#: ../src/lxterminal.c:156 ../src/lxterminal.c:179
 msgid "Move Tab _Right"
 msgstr "Perkelti kortelę _dešinėn"
 
-#: ../src/lxterminal.c:162
+#. 19
+#: ../src/lxterminal.c:157
 msgid "_About"
 msgstr "_Apie"
 
-#: ../src/lxterminal.c:173
+#: ../src/lxterminal.c:168
 msgid "Copy _URL"
-msgstr "_Kopijuoti URL"
+msgstr ""
 
-#: ../src/lxterminal.c:176
+#: ../src/lxterminal.c:171
+#, fuzzy
 msgid "Cl_ear scrollback"
-msgstr "_Išvalyti slinkimo istoriją"
+msgstr "Paslėpti slinkimo juostą"
 
 #. Propagate the working directory of the current tab to the new tab.
 #. * If the working directory was determined above, use it; otherwise default to the working directory of the process.
 #. * Create the new terminal.
-#: ../src/lxterminal.c:435 ../src/lxterminal.c:723 ../src/lxterminal.c:798
-#: ../src/lxterminal.c:1470 ../src/preferences.c:230
-#: ../data/lxterminal.desktop.in.h:1
+#: ../src/lxterminal.c:430 ../src/lxterminal.c:734 ../src/lxterminal.c:809
+#: ../src/lxterminal.c:1477 ../src/lxterminal.c:1523 ../src/preferences.c:305
+#: ../src/preferences.c:323 ../data/lxterminal.desktop.in.h:1
 msgid "LXTerminal"
 msgstr "LXTerminal"
 
-#: ../src/lxterminal.c:563
+#: ../src/lxterminal.c:567 ../data/lxterminal-preferences.glade.h:28
 msgid "Name Tab"
 msgstr "Pavadinti kortelę"
 
 #. TRANSLATORS: Replace this string with your names, one name per line.
-#: ../src/lxterminal.c:717
+#: ../src/lxterminal.c:728
 msgid "translator-credits"
-msgstr ""
-"Julius Vitkauskas <zadintuvas@gmail.com>\n"
-"Algimantas Margevičius <margevicius.algimantas@gmail.com>"
+msgstr "Julius Vitkauskas <zadintuvas@gmail.com>"
 
-#: ../src/lxterminal.c:725
+#: ../src/lxterminal.c:736
 msgid "Copyright (C) 2008-2011"
 msgstr "Autorinės teisės (C) 2008-2011"
 
-#: ../src/lxterminal.c:726
+#: ../src/lxterminal.c:737
 msgid "Terminal emulator for LXDE project"
 msgstr "LXDE projekto terminalo emuliatorius"
 
+#: ../src/preferences.c:303
+msgid "Accelerator changed need restart!"
+msgstr ""
+
 #: ../data/lxterminal-preferences.glade.h:1
+#, fuzzy
 msgid "LXTerminal Preferences"
-msgstr "LXTerminal nustatymai"
+msgstr "Nustatymai"
 
 #: ../data/lxterminal-preferences.glade.h:2
 msgid "Terminal font"
@@ -295,7 +317,7 @@ msgstr "Fonas"
 
 #: ../data/lxterminal-preferences.glade.h:4
 msgid "Foreground"
-msgstr "Priekinis planas"
+msgstr "Priekis"
 
 #: ../data/lxterminal-preferences.glade.h:5
 msgid "Allow bold font"
@@ -303,11 +325,11 @@ msgstr "Leisti paryškintą šriftą"
 
 #: ../data/lxterminal-preferences.glade.h:6
 msgid "Cursor blink"
-msgstr "Žymeklio mirksėjimas"
+msgstr "Kursoriaus mirksėjimas"
 
 #: ../data/lxterminal-preferences.glade.h:7
 msgid "Cursor style"
-msgstr "Žymeklio stilius"
+msgstr "Kursoriaus stilius"
 
 #: ../data/lxterminal-preferences.glade.h:8
 msgid "Block"
@@ -331,7 +353,7 @@ msgstr "Kortelių juostos vieta"
 
 #: ../data/lxterminal-preferences.glade.h:13
 msgid "Scrollback lines"
-msgstr "Slinkti eilutes"
+msgstr "Įsiminti eilučių"
 
 #: ../data/lxterminal-preferences.glade.h:14
 msgid "Hide scroll bar"
@@ -358,26 +380,80 @@ msgid "Disable menu shortcut key (F10 by default)"
 msgstr "Išjungti spartųjį meniu klavišą (F10)"
 
 #: ../data/lxterminal-preferences.glade.h:20
+#, fuzzy
 msgid "Disable using Alt-n for tabs and menu"
-msgstr "Neleisti naudoti Alt-n kortelėms ir meniu"
+msgstr "Nenaudoti Alt+N perjungti kortelėms"
 
 #: ../data/lxterminal-preferences.glade.h:21
 msgid "Advanced"
 msgstr "Sudėtingesni"
 
 #: ../data/lxterminal-preferences.glade.h:22
+#, fuzzy
+msgid "New Window"
+msgstr "Naujas _langas"
+
+#: ../data/lxterminal-preferences.glade.h:23
+#, fuzzy
+msgid "New Tab"
+msgstr "_Nauja kortelė"
+
+#: ../data/lxterminal-preferences.glade.h:24
+#, fuzzy
+msgid "Close Tab"
+msgstr "_Uždaryti kortelę"
+
+#: ../data/lxterminal-preferences.glade.h:25
+#, fuzzy
+msgid "Quit"
+msgstr "_Išeiti"
+
+#: ../data/lxterminal-preferences.glade.h:26
+msgid "Copy"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:27
+#, fuzzy
+msgid "Paste"
+msgstr "_Padėti"
+
+#: ../data/lxterminal-preferences.glade.h:29
+#, fuzzy
+msgid "Previous Tab"
+msgstr "_Ankstesnė kortelė"
+
+#: ../data/lxterminal-preferences.glade.h:30
+#, fuzzy
+msgid "Next Tab"
+msgstr "_Kita kortelė"
+
+#: ../data/lxterminal-preferences.glade.h:31
+#, fuzzy
+msgid "Move Tab Left"
+msgstr "Perkelti kortelę _kairėn"
+
+#: ../data/lxterminal-preferences.glade.h:32
+#, fuzzy
+msgid "Move Tab Right"
+msgstr "Perkelti kortelę _dešinėn"
+
+#: ../data/lxterminal-preferences.glade.h:33
+msgid "Shortcuts"
+msgstr ""
+
+#: ../data/lxterminal-preferences.glade.h:34
 msgid "Top"
 msgstr "Viršuje"
 
-#: ../data/lxterminal-preferences.glade.h:23
+#: ../data/lxterminal-preferences.glade.h:35
 msgid "Bottom"
 msgstr "Apačioje"
 
-#: ../data/lxterminal-preferences.glade.h:24
+#: ../data/lxterminal-preferences.glade.h:36
 msgid "Left"
 msgstr "Kairėje"
 
-#: ../data/lxterminal-preferences.glade.h:25
+#: ../data/lxterminal-preferences.glade.h:37
 msgid "Right"
 msgstr "Dešinėje"
 
@@ -388,3 +464,30 @@ msgstr "Terminalas"
 #: ../data/lxterminal.desktop.in.h:3
 msgid "Use the command line"
 msgstr "Naudoti komandų eilutę"
+
+#~ msgid "gtk-cancel"
+#~ msgstr "gtk-cancel"
+
+#~ msgid "gtk-ok"
+#~ msgstr "gtk-ok"
+
+#~ msgid "Failed to launch the web browser. The command was `%s'\n"
+#~ msgstr "Nepavyko paleisti naršyklės. Buvo įvykdyta `%s' komanda\n"
+
+#~ msgid "Misc"
+#~ msgstr "Kita"
+
+#~ msgid "Disable F10 shortcut for menu:"
+#~ msgstr "Nenaudoti F10 klavišo atidaryti meniu:"
+
+#~ msgid "General"
+#~ msgstr "Bendri"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Nustatymai"
+
+#~ msgid "Transparent Background:"
+#~ msgstr "Permatomas fonas:"
+
+#~ msgid "_View"
+#~ msgstr "_Rodymas"
